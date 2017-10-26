@@ -1,0 +1,298 @@
+body{
+    background-color: gainsboro;
+    padding-top: 30px;
+}
+
+
+
+#container{
+    width: 250px;
+    margin: auto;
+    background-color: #333;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 15px #000000;
+    position: relative;
+
+
+
+}
+
+
+#info{
+    width: 250px;
+    margin: auto;
+    background-color: #333;
+    border-radius: 0px 0px 4px 4px ;
+    box-shadow: 0px 0px 15px #000000;
+    height: 40px;
+    padding-top: 10px;
+    border-top: 2px solid gray;
+
+
+
+
+}
+
+#CoreOfInfo{
+    width: 90%;
+    margin: auto;
+    background-color: grey;
+    border-radius: 2px;
+    height: 28px;
+    padding-top: 5px;
+}
+#timerImageDiv{
+    width: 12%;
+    background-color: #ffffff;
+    border-radius: 100%;
+    height: 24px;
+    float: left;
+    margin-left: 6px;
+}
+.image{
+    width: 87%;
+    height: 85%;
+    margin-right: 5%;
+    margin-top: 6%;
+}
+
+#timerCunter{
+    float: left;
+    width: 25%;
+    background-color: gainsboro;
+    border-radius: 3px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 2px;
+    font-family: Orbitron;
+    color: red;
+    text-align: right;
+}
+#demo{
+     margin: 0px 5px 0px 0px;
+ }
+#demo1{
+    margin: 0px 0px 0px 5px;
+
+}
+
+
+#numberOfMines{
+    float: right;
+    width: 25%;
+    background-color: gainsboro;
+    border-radius: 3px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 2px;
+    font-family: Orbitron;
+    color: red;
+    text-align: left;
+
+}
+
+
+#mineImageDive{
+    width: 12%;
+    background-color: #ffffff;
+    border-radius: 100%;
+    height: 24px;
+    float: right;
+    margin-right: 6px;
+}
+
+#mineImageDive img{
+    margin-left: 0px;
+}
+#container div button{
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    float: left;
+    border-collapse: collapse;
+
+}
+
+#condition{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-left: 6px;
+}
+#condition img{
+    width: 100%;
+    height: 100%;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.flag{
+    width: 100%;
+    height: 100%;
+}
+
+
+Button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #badef2 5%, #0f456b 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#badef2', endColorstr='#0f456b',GradientType=0);
+    background-color:#badef2;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:12px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+}
+Button:hover {
+
+    background:linear-gradient(to bottom, #0f456b 5%, #badef2 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f456b', endColorstr='#badef2',GradientType=0);
+    background-color:#0f456b;
+}
+.Button:active {
+    position:relative;
+    top:1px;
+}
+
+.losser{
+    background-color: lightgray;
+    opacity: 0.6;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px 3px 0px 0px;
+    position: absolute;
+    top: 0px;
+}
+#menu{
+
+    background-color: #333;
+    box-shadow: 0px 0px 15px #000000;
+    height: 22px;
+    box-shadow: 0px 0px 15px #000000;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 2px solid gray;
+
+
+}
+#menu button{
+    color:red;
+    font-family:Arial;
+    font-size:12px;
+    padding:3px 6px;
+    -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #badef2 5%, #0f456b 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#badef2', endColorstr='#0f456b',GradientType=0);
+    background-color:#badef2;
+
+
+}
+
+#maincontainer{
+    border: 3px solid gray;
+    width: 250px;
+    margin: auto;
+    border-radius: 7px;
+
+}
+
+#menu Button {
+    -moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    -webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+    border:1px solid #566963;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #2b665e;
+    font-size:12px;
+    padding:3px 6px;
+    float: left;
+}
+#menu Button:hover {
+    background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+    background-color:#6c7c7c;
+}
+#menu Button:active {
+    position:relative;
+    top:1px;
+}
+#newgame{
+    border-radius: 4px 1px 0px 0px ;
+
+}
+
+#restart{
+    border-radius: 1px 1px 0px 0px ;
+
+}
+#minesDiv{
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 100%;
+    height: 17px;
+    float: right;
+    margin-left: 6px;
+    margin: 2px 3px 0px 0px;
+}
+
+#minesinput{
+    float: right;
+    width: 17%;
+    background-color: gainsboro;
+    border-radius: 3px;
+    height: 12px;
+    margin-right: 5px;
+    margin-top: 0px;
+    font-family: Orbitron;
+    color: red;
+    text-align: left;
+    margin: 2px 3px 0px 0px;
+    text-align: center;
+}
+#animateloss {
+    width: 135px;
+    position: absolute;
+    background-color: #000000;
+    color: red;
+    margin-right: 57px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#animatewin{
+    width: 200px;
+    position: absolute;
+    background-color: #000000;
+    color: green;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+

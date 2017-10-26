@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>boomber</title>
+    <link rel="stylesheet" type="text/css" href="boomber.css">
+    <link type="text/css" rel="stylesheet" href="css/newcss.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body oncontextmenu="return false;" id="body">
+
+<div id="maincontainer">
+    <div id="menu">
+        <button id="newgame" onclick="newgame()">new game</button>
+        <button id="restart" onclick="restart()">restart</button>
+        <div id="minesDiv">
+            <img src="mine.png" class="image">
+        </div>
+        <input id="minesinput" value="10">
+        </input>
+    </div>
+
+    <div id="container">
+    </div>
+
+
+    <div id="info">
+        <div id="CoreOfInfo">
+            <div id="timerImageDiv">
+                <img src="clock-icon.png" class="image">
+            </div>
+            <div id="timerCunter">
+                <p id="demo">0</p>
+            </div>
+            <div id="condition">
+                <img src="Friend Smiley.ico">
+            </div>
+            <div id="mineImageDive">
+                <img src="flag.png" class="image">
+            </div>
+            <div id="numberOfMines">
+                <p id="demo1"></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<script src="boomber.js"></script>
+
+
+</body>
+</html>
